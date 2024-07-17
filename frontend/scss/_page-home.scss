@@ -1,0 +1,199 @@
+.page-home {
+  header {
+    background-image: url(../img/bg/bg-header.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    height: 90vh;
+    nav {
+      box-shadow: 0px 1px 20.7px 0px #00000026;
+      height: 90px;
+      background-color: #fff;
+
+      .menu-item {
+        font-size: 14px;
+      }
+    }
+
+    .img-header-desktop {
+      position: absolute;
+      bottom: 0;
+      right: 15%;
+      height: 36em;
+      width: 25em;
+    }
+  }
+
+  #servicos {
+    .service-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 488px;
+      width: 265px;
+      border-radius: 120px 120px 0px 0px;
+      box-shadow: 0px 0px 11.6px -2px #00000026;
+      background-color: #FFFFFF;
+      padding: 21px 16px 16px 16px;
+      position: relative;
+
+      .icon-circle {
+        height: 170px;
+        width: 170px;
+        border-radius: 50%;
+        background-color: #F7F1FA;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .butterfly {
+        position: absolute;
+        background-image: url(../img/bg/butterfly.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 80px;
+        width: 80px;
+
+        &.first {
+          bottom: 2%;
+          left: -26%;
+          transform: rotate(-45deg) scaleX(-1);
+        }
+        
+        &.last {
+          top: -2%;
+          right: -15%;
+          transform: rotate(18deg);
+        }
+      }
+    }
+  }
+
+  #missao-visao-valores {
+    position: relative;
+
+    .value-bubble {
+      border-radius: 50%;
+      height: 370px;
+      width: 370px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      overflow-wrap: break-word;
+      background-color: #F7F1FA;
+      padding: 30px;
+    }
+
+    .bubble {
+      background-color: #FBF9FD;
+      border-radius: 50%;
+      position: absolute;
+
+      &.one {
+        height: 72px;
+        width: 72px;
+        top: 0%;
+        left: -2%;
+      }
+
+      &.two {
+        height: 40px;
+        width: 40px;
+        bottom: 5%;
+        left: 5%;
+      }
+
+      &.three {
+        height: 36px;
+        width: 36px;
+        top: 5%;
+        left: 22%;
+      }
+
+      &.four {
+        height: 75px;
+        width: 75px;
+        top: 9%;
+        left: 27%;
+      }
+
+      &.five {
+        height: 75px;
+        width: 75px;
+        bottom: 9%;
+        right: 27%;
+      }
+
+      &.six {
+        height: 36px;
+        width: 36px;
+        bottom: 5%;
+        right: 22%;
+      }
+
+      &.seven {
+        height: 40px;
+        width: 40px;
+        top: 5%;
+        right: 5%;
+      }
+
+      &.eight {
+        height: 72px;
+        width: 72px;
+        bottom: 2%;
+        right: -2%;
+      }
+    }
+  }
+
+  footer {
+    hr {
+      border-color: #51615E30;
+    }
+  }
+
+  aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    height: 100%;
+    width: 0px;
+    transition: all .4s ease-in-out;
+    z-index: 99;
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+      width: 2px;
+    }
+    
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+      background: #888;
+    }
+    
+    &::-webkit-scrollbar-thumb:hover {
+      opacity: .8;
+    }
+
+    .mobile-menu-item,
+    a {
+      text-decoration: none !important;
+      color: #fff !important;
+      font-size: 14px !important;
+    }
+    
+    hr {
+      border-color: #fff;
+    }
+  }
+}

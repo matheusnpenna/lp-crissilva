@@ -1,0 +1,83 @@
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  color: var(--Cinza, #505050);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 48px;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 40px;
+}
+
+h3 {
+  font-size: 36px;
+  line-height: 36px;
+}
+
+p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px; 
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0.09rem;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 1536px;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin-inline: auto;
+
+  @media screen and (max-width: 991px) {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+.glider-prev,
+.glider-next {
+  color: #fff !important;
+}
+
+.glider-slide {
+  display: flex;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+}
+
+#particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#typed {
+  height: 30px;
+}

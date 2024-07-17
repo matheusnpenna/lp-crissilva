@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "rpcertificados-a4faf"
+  },
+  "targets": {
+    "rpcertificados-a4faf": {
+      "hosting": {
+        "rpcertificadosdigitais": [
+          "rpcertificadosdigitais"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
