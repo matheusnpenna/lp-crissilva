@@ -1,4 +1,4 @@
-# Landing page - RP Certificadora
+# Landing page - Cristiane Silva
 
 ## Setup
 ```
