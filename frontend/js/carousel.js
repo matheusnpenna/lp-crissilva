@@ -1,7 +1,7 @@
 new Glider(document.querySelector('.carousel-testimony'), {
   slidesToShow: 4,
   slidesToScroll: 4,
-  draggable: false,
+  draggable: true,
   gap: 20,
   responsive: [
     { breakpoint: 991, settings: { slidesToShow: 4, slidesToScroll: 4 } },
