@@ -1,12 +1,12 @@
 {
   "projects": {
-    "default": "rpcertificados-a4faf"
+    "default": "cristianesantospsicologia"
   },
   "targets": {
-    "rpcertificados-a4faf": {
+    "cristianesantospsicologia": {
       "hosting": {
-        "rpcertificadosdigitais": [
-          "rpcertificadosdigitais"
+        "cristianesantospsicologia": [
+          "cristianesantospsicologia"
         ]
       }
     }

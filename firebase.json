@@ -1,6 +1,6 @@
 {
   "hosting": [{
-    "target": "rpcertificadosdigitais",
+    "target": "cristianesantospsicologia",
     "public": "dist",
     "ignore": [
       "firebase.json",
